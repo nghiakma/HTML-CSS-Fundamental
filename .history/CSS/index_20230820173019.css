@@ -72,22 +72,6 @@ li:last-child {
 li:nth-child(2) {
   color: red;
 }
-article p:last-child {
+aside p:last-child {
   color: red;
-}
-a:link {
-  color: #1098ad;
-  text-decoration: none;
-}
-a:visited {
-  color: #1098ad;
-}
-a:hover {
-  color: orangered;
-  font-weight: bold;
-  text-decoration: underline orangered;
-}
-a:active {
-  background-color: black;
-  font-style: italic;
 }
