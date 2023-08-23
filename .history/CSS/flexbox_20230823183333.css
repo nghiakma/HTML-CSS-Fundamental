@@ -1,0 +1,30 @@
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.author-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.author {
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+.related-post {
+  display: flex;
+  align-items: center;
+}
+.related-link:link {
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: ;
+}
+.related-author {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+}

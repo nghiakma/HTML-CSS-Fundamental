@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flexbox</title>
+  <style>
+    .el--1 {
+      background-color: blueviolet;
+      align-self: flex-start;
+      /* order: 2; */
+      /* flex-grow: 1; */
+    }
+
+    .el--2 {
+      background-color: orangered;
+      align-self: stretch;
+
+    }
+
+    .el--3 {
+      background-color: green;
+      height: 150px;
+    }
+
+    .el--4 {
+      background-color: goldenrod;
+    }
+
+    .el--5 {
+      background-color: palevioletred;
+      order: 1;
+    }
+
+    .el--6 {
+      background-color: steelblue;
+      order: -1;
+    }
+
+    .el--7 {
+      background-color: yellow;
+    }
+
+    .el--8 {
+      background-color: crimson;
+    }
+
+    .el {
+      /* margin-right: 30px; 
+      flex cho phep thu nho cac 
+      phan tu de phu hop voi vung chua
+      flex-grow thi tat cac cac khong gian con lai 
+      cua vung chua se chia deu cho cac flex item
+      Neu chi dung cho mot flex item thi chi co 
+      item do chiem khoang khong gian thua vung chua*/
+      /* flex-basis: 200px; */
+      flex-shrink: 0;
+      flex-grow: 1;
+    }
+
+    /*Vung chua flex lay chieu cao cua phan tu cao nhat*/
+    .container {
+      /* STARTER */
+      font-family: sans-serif;
+      background-color: #ddd;
+      font-size: 32px;
+      margin: 40px;
+      display: flex;
+      /* gap: 30px; */
+      /* FLEXBOX */
+      /*Chieu cao cua cac phan tu tu dong keo dai bang phan tu cao nhat*/
+      /* align-items: stretch; */
+      align-items: center;
+      justify-content: flex-start;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="el el--1">HTML</div>
+    <div class="el el--2">and</div>
+    <div class="el el--3">CSS</div>
+    <div class="el el--4">are</div>
+    <div class="el el--5">amazing</div>
+    <!-- <div class="el el--6">languages</div> -->
+    <!-- <div class="el el--7">to</div>
+    <div class="el el--8">learn</div> -->
+  </div>
+</body>
+
+</html>

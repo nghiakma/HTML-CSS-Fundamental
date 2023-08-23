@@ -1,0 +1,29 @@
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+.author {
+  float: left;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+h1 {
+  float: left;
+}
+/*khong con noi dung nua chieu cao = 0*/
+/*Phan tu header se bien mat vi nhung phan tu h1 va nav se dc tha noi va nhu the nhung phan tu nay ko con tren trang nua*/
+nav {
+  float: right;
+}
+/*Cach khac phuc: clearing floats, xoa di phan tu noi
+ap dung clearfix cho mot phan tu dam bao phan tu do khong bi anh huong boi cac phan tu da su dung float
+tao ra mot phan tu con trong header noi dung rong 
+*/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+article {
+  background-color: red;
+}
