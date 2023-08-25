@@ -38,8 +38,6 @@ Neu dung flex-start thi item se chi chiem khong gian can thiet*/
   display: flex;
   gap: 75px;
   margin-bottom: 60px;
-  /*Chi chiem khong gian can thiet cho noi dung*/
-  align-items: flex-start;
 }
 article {
   flex: 1;

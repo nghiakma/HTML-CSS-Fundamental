@@ -31,20 +31,5 @@
   font-weight: normal;
   font-style: italic;
 }
-/*Neu khong dung align-item thi cac item se 
-mac dinh la stretch
-Neu dung flex-start thi item se chi chiem khong gian can thiet*/
-.row {
-  display: flex;
-  gap: 75px;
-  margin-bottom: 60px;
-  /*Chi chiem khong gian can thiet cho noi dung*/
-  align-items: flex-start;
-}
-article {
-  flex: 1;
-  margin-bottom: 0;
-}
-aside {
-  flex: 0 0 300px;
+.container {
 }
